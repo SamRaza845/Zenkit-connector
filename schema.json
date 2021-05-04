@@ -1,0 +1,559 @@
+{
+  "Tables": {
+    "resourceTags": {
+      "datatype": "table",
+      "columns": [
+        {
+          "column": "uuid",
+          "constraint": "",
+          "datatype": "varchar(255)",
+          "description": ""
+        },
+        {
+          "column": "tag",
+          "constraint": "",
+          "datatype": "varchar(255)",
+          "description": ""
+        },
+        {
+          "column": "appType",
+          "constraint": "",
+          "datatype": "varchar(255)",
+          "description": ""
+        },
+        {
+          "column": "isOwner",
+          "constraint": "",
+          "datatype": "boolean",
+          "description": ""
+        },
+        {
+          "column": "created_by",
+          "constraint": "",
+          "datatype": "int",
+          "description": ""
+        },
+        {
+          "column": "created_at",
+          "constraint": "",
+          "datatype": "varchar(255)",
+          "description": ""
+        }
+      ]
+    },
+    "background": {
+      "datatype": "table",
+      "columns": []
+    },
+    "main": {
+      "datatype": "table",
+      "columns": [
+        {
+          "column": "id",
+          "constraint": "",
+          "datatype": "int",
+          "description": ""
+        },
+        {
+          "column": "shortId",
+          "constraint": "",
+          "datatype": "varchar(255)",
+          "description": ""
+        },
+        {
+          "column": "uuid",
+          "constraint": "",
+          "datatype": "varchar(255)",
+          "description": ""
+        },
+        {
+          "column": "name",
+          "constraint": "",
+          "datatype": "varchar(255)",
+          "description": ""
+        },
+        {
+          "column": "description",
+          "constraint": "",
+          "datatype": "varchar(255)",
+          "description": ""
+        },
+        {
+          "column": "isDefault",
+          "constraint": "",
+          "datatype": "boolean",
+          "description": ""
+        },
+        {
+          "column": "created_at",
+          "constraint": "",
+          "datatype": "varchar(255)",
+          "description": ""
+        },
+        {
+          "column": "updated_at",
+          "constraint": "",
+          "datatype": "varchar(255)",
+          "description": ""
+        },
+        {
+          "column": "deprecated_at",
+          "constraint": "",
+          "datatype": "varchar(255)",
+          "description": ""
+        },
+        {
+          "column": "backgroundId",
+          "constraint": "",
+          "datatype": "varchar(255)",
+          "description": ""
+        },
+        {
+          "column": "created_by",
+          "constraint": "",
+          "datatype": "int",
+          "description": ""
+        }
+      ]
+    },
+    "default_background": {
+      "datatype": "table",
+      "columns": []
+    },
+    "filterKeys": {
+      "datatype": "table",
+      "columns": []
+    },
+    "element_categories": {
+      "datatype": "table",
+      "columns": []
+    },
+    "businessDataDefinition": {
+      "datatype": "table",
+      "columns": []
+    },
+    "businessDataDefaults": {
+      "datatype": "table",
+      "columns": []
+    },
+    "elementDataDefinition": {
+      "datatype": "table",
+      "columns": []
+    },
+    "elementDataDefaults": {
+      "datatype": "table",
+      "columns": []
+    },
+    "user_access": {
+      "datatype": "table",
+      "columns": []
+    },
+    "settings": {
+      "datatype": "table",
+      "columns": []
+    },
+    "lists-without-workspace-access": {
+      "datatype": "table",
+      "columns": []
+    },
+    "emails": {
+      "datatype": "table",
+      "columns": [
+        {
+          "column": "id",
+          "constraint": "",
+          "datatype": "int",
+          "description": ""
+        },
+        {
+          "column": "shortId",
+          "constraint": "",
+          "datatype": "varchar(255)",
+          "description": ""
+        },
+        {
+          "column": "uuid",
+          "constraint": "",
+          "datatype": "varchar(255)",
+          "description": ""
+        },
+        {
+          "column": "email",
+          "constraint": "",
+          "datatype": "varchar(255)",
+          "description": ""
+        },
+        {
+          "column": "isPrimary",
+          "constraint": "",
+          "datatype": "boolean",
+          "description": ""
+        },
+        {
+          "column": "created_at",
+          "constraint": "",
+          "datatype": "varchar(255)",
+          "description": ""
+        },
+        {
+          "column": "updated_at",
+          "constraint": "",
+          "datatype": "varchar(255)",
+          "description": ""
+        },
+        {
+          "column": "deprecated_at",
+          "constraint": "",
+          "datatype": "varchar(255)",
+          "description": ""
+        },
+        {
+          "column": "isVerified",
+          "constraint": "",
+          "datatype": "boolean",
+          "description": ""
+        }
+      ]
+    },
+    "new-notifications-in-minimal-format": {
+      "datatype": "table",
+      "columns": []
+    },
+    "notifications": {
+      "datatype": "table",
+      "columns": []
+    },
+    "current_user": {
+      "datatype": "table",
+      "columns": []
+    },
+    "workspacesWithLists": {
+      "datatype": "table",
+      "columns": []
+    },
+    "sys.tables": {
+      "tablename": "tables",
+      "datatype": "system table",
+      "columns": [
+        {
+          "column": "tablename",
+          "datatype": "varChar",
+          "description": ""
+        },
+        {
+          "column": "datatype",
+          "datatype": "varChar",
+          "description": ""
+        }
+      ]
+    },
+    "sys.log": {
+      "tablename": "logs",
+      "datatype": "system table",
+      "columns": [
+        {
+          "column": "logs",
+          "datatype": "varChar",
+          "description": ""
+        }
+      ]
+    },
+    "sys.constraints": {
+      "tablename": "constraints",
+      "datatype": "system table",
+      "columns": [
+        {
+          "column": "tablename",
+          "datatype": "varChar",
+          "description": ""
+        },
+        {
+          "column": "PK",
+          "datatype": "varChar",
+          "description": ""
+        },
+        {
+          "column": "FK",
+          "datatype": "varChar",
+          "description": ""
+        }
+      ]
+    },
+    "sys.methods": {
+      "tablename": "methods",
+      "datatype": "system table",
+      "columns": [
+        {
+          "column": "method",
+          "datatype": "varChar",
+          "description": ""
+        },
+        {
+          "column": "description",
+          "datatype": "varChar",
+          "description": ""
+        }
+      ]
+    },
+    "sys.delta": {
+      "tablename": "delta",
+      "datatype": "system table",
+      "columns": [
+        {
+          "column": "tablename",
+          "datatype": "varChar",
+          "description": ""
+        },
+        {
+          "column": "detlafield",
+          "datatype": "varChar",
+          "description": ""
+        }
+      ]
+    },
+    "sys.usage ": {
+      "tablename": "usage",
+      "datatype": "system table",
+      "columns": [
+        {
+          "column": "total time spent",
+          "datatype": "time",
+          "description": ""
+        },
+        {
+          "column": "remaining time",
+          "datatype": "time",
+          "description": ""
+        },
+        {
+          "column": "total time alloted",
+          "datatype": "time",
+          "description": ""
+        }
+      ]
+    },
+    "sys.version ": {
+      "tablename": "version",
+      "datatype": "system table",
+      "columns": [
+        {
+          "column": "version",
+          "datatype": "varChar",
+          "description": ""
+        }
+      ]
+    },
+    "sys.license ": {
+      "tablename": "license",
+      "datatype": "system table",
+      "columns": [
+        {
+          "column": "licenseKey",
+          "datatype": "varChar",
+          "description": ""
+        },
+        {
+          "column": "activatedate",
+          "datatype": "datetime",
+          "description": ""
+        },
+        {
+          "column": "totaltime",
+          "datatype": "datetime",
+          "description": ""
+        },
+        {
+          "column": "remainingtime",
+          "dataType": "datetime",
+          "description": ""
+        },
+        {
+          "column": "expiredate",
+          "dataType": "datetime",
+          "description": ""
+        }
+      ]
+    },
+    "sys.connectionstring ": {
+      "tablename": "connectionstring",
+      "datatype": "system table",
+      "columns": [
+        {
+          "column": "target",
+          "datatype": "varChar",
+          "description": ""
+        },
+        {
+          "column": "connectionstring",
+          "datatype": "varChar",
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Methods": {
+    "initializeAPI": {
+      "description": "",
+      "return": "token",
+      "returntype": "varchar",
+      "parameters": [
+        {
+          "parameter": "clientId",
+          "datatype": "varchar",
+          "required": "YES",
+          "description": ""
+        },
+        {
+          "parameter": "clientSecret",
+          "datatype": "varchar",
+          "required": "YES",
+          "description": ""
+        },
+        {
+          "parameter": "companyId",
+          "datatype": "int",
+          "required": "YES",
+          "description": ""
+        },
+        {
+          "parameter": "redirect_url",
+          "datatype": "varchar",
+          "required": "NO",
+          "description": ""
+        },
+        {
+          "parameter": "auth_url",
+          "datatype": "varchar",
+          "required": "NO",
+          "description": ""
+        }
+      ]
+    },
+    "fetchDataFromAPI": {
+      "description": "",
+      "return": "data",
+      "returntype": "pandas.DataFrame",
+      "parameters": [
+        {
+          "parameter": "table",
+          "datatype": "varchar",
+          "required": "YES",
+          "description": ""
+        },
+        {
+          "parameter": "col",
+          "datatype": "list",
+          "required": "YES",
+          "description": ""
+        },
+        {
+          "parameter": "val",
+          "datatype": "list",
+          "required": "YES",
+          "description": ""
+        }
+      ]
+    },
+    "querymaker": {
+      "description": "",
+      "return": "data",
+      "returntype": "pandas.DataFrame",
+      "parameters": [
+        {
+          "parameter": "query",
+          "datatype": "varchar",
+          "required": "YES",
+          "description": ""
+        }
+      ]
+    },
+    "Pagination": {
+      "description": "",
+      "return": "data",
+      "returntype": "pandas.DataFrame",
+      "parameters": [
+        {
+          "parameter": "data",
+          "datatype": "pandas.DataFrame",
+          "required": "YES",
+          "description": ""
+        },
+        {
+          "parameter": "number_of_page",
+          "datatype": "int",
+          "required": "YES",
+          "description": ""
+        }
+      ]
+    },
+    "create_schema": {
+      "description": "",
+      "return": "schema",
+      "returntype": "json",
+      "parameters": [
+        {
+          "parameter": "endpoints",
+          "datatype": "pandas.DataFrame",
+          "required": "YES",
+          "description": ""
+        }
+      ]
+    },
+    "schedule_data": {
+      "description": "",
+      "return": "None",
+      "returntype": "None",
+      "parameters": [
+        {
+          "parameter": "sec",
+          "datatype": "int",
+          "required": "YES",
+          "description": ""
+        },
+        {
+          "parameter": "rows",
+          "datatype": "int",
+          "required": "YES",
+          "description": ""
+        },
+        {
+          "parameter": "df",
+          "datatype": "DataFrame",
+          "required": "YES",
+          "description": ""
+        },
+        {
+          "parameter": "filename",
+          "datatype": "varchar",
+          "required": "YES",
+          "description": ""
+        }
+      ]
+    },
+    "schedule_task": {
+      "description": "",
+      "return": "None",
+      "returntype": "None",
+      "parameters": [
+        {
+          "parameter": "data",
+          "datatype": "DataFrame",
+          "required": "YES",
+          "description": ""
+        },
+        {
+          "parameter": "rows",
+          "datatype": "int",
+          "required": "YES",
+          "description": ""
+        },
+        {
+          "parameter": "filename",
+          "datatype": "varchar",
+          "required": "YES",
+          "description": ""
+        }
+      ]
+    }
+  }
+}
